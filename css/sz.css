@@ -1,0 +1,28 @@
+body{
+	background-image: linear-gradient(to top right,#87cefa,#87ceeb,#b0c4de,#add8e6, #b0e0e6);
+}
+ul,li{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+}
+ul{
+    overflow: hidden;
+}
+.ul1>li{
+    float: left;
+    margin-left: 15px;
+        }
+select{
+    width: 180px;
+}
+.active{
+    font-weight: bold;
+    border-bottom: 3px lightcyan solid;
+    border-radius: 4px;
+}
+.ul1>li:hover{
+    border-bottom: 3px lightcyan solid;
+    border-radius: 4px;
+}

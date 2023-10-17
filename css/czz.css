@@ -1,0 +1,64 @@
+body{
+	background-color: lightblue;
+}
+h1{
+	text-align: center;
+	font-size:60px;
+	font-family: 楷体;
+	line-height: 5px;
+	margin-top: 60px;
+}
+h2{
+	text-align: center;
+	font-size: 15px;
+	font-family: 仿宋;
+}
+.div1>ul>li>img{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.div1>ul>li>p{
+	font-size: 30px;
+	line-height: 0px;
+}
+.div1>ul>li>span{
+	font-size: 18px;
+}
+.div1>ul>li{
+	float: left;
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 330px;
+	height: 260px;
+	box-shadow: gray 2px 2px 20px;
+	text-align: center;
+	background-color:lightcyan;
+	text-transform: uppercase;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.div2>ul>li{
+	float: left;
+	margin-left: 60px;
+	margin-top: 50px;
+	width: 500px;
+	height: 90px;
+	box-shadow: gray 2px 2px 20px;
+	text-align: center;
+	background-color: lightcyan;
+	text-transform: uppercase;
+	border-radius: 10px;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.div2>ul>li>p {
+	line-height: 1px;
+}
